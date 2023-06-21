@@ -1,0 +1,177 @@
+body {
+    box-sizing: border-box;
+    font-size: 100%;
+    background: #000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 100%;
+    background: url('../../img/lin-main.png');
+    background-size: cover;
+}
+
+.conteiner {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.block_rockets {
+    max-width: 50rem;
+    height: 30rem;
+    background: url('../../img/people.png')no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+.active_useers {
+    max-width: 60rem;
+    color: #fff;
+}
+
+.block_progect {
+    background: #fff;
+    border-radius: 20px;
+}
+
+.block_progect {
+    padding: 1.1rem 1.4rem;
+    border-radius: 20px;
+}
+
+.head_progect {
+    margin-bottom: 3rem;
+}
+
+.head_progect h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2D3748;
+}
+
+.head_progect p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    column-gap: 0.3rem;
+    padding-left: 0rem;
+    color: #A0AEC0;
+}
+
+.table th {
+    width: 15rem;
+    text-align: start;
+    font-size: 0.8rem;
+    color: #A0AEC0;
+    padding-bottom: 1rem;
+}
+
+.table td {
+    height: 2rem;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #2D3748;
+    padding: 1rem 0rem;
+}
+
+.table td img {
+    border-radius: 100%;
+}
+
+.num_prod {
+    display: flex;
+    padding: 0.3rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 1rem;
+}
+
+.prog {
+    margin-top: 5px;
+}
+
+.block_overvi {
+    padding: 1.1rem 1.4rem;
+    border-radius: 20px;
+}
+
+.head_overvi {
+    margin-bottom: 0.5rem;
+}
+
+.head_overvi h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2D3748;
+    margin-bottom: 0.5rem;
+}
+
+.head_overvi p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #A0AEC0;
+}
+
+.head_overvi p span {
+    color: #48BB78;
+    margin-right: 0.5rem;
+}
+
+.content_overview li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.overv_img {
+    position: relative;
+}
+
+.lean {
+    position: absolute;
+    height: 2rem;
+    border: 1.5px solid #E2E8F0;
+    left: 0.36rem;
+}
+
+.overv_text h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #2D3748;
+    margin-bottom: 0.3rem;
+}
+
+.overv_text p {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #A0AEC0;
+}

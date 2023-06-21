@@ -1,0 +1,135 @@
+.container_tarif {
+    max-width: 100%;
+    background: #E0E0E0;
+    padding: 3.2rem 6.25rem;
+}
+
+.head_tarif {
+    text-align: center;
+    margin-bottom: 1.6rem;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #263057;
+}
+
+.head_tarif h2 {
+    font-weight: 400;
+}
+
+.block_tarif {
+    max-width: 90rem;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    padding-bottom: 4rem;
+}
+
+.cart_tarif {
+    text-align: center;
+}
+
+.nav_tarif {
+    padding: 3.125rem 0rem;
+}
+
+.nav_tarif_link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_tarif_link li {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #263057;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.5s;
+}
+
+.nav_tarif_link li:hover{
+    border-bottom: 1px solid #263057;
+}
+
+.cart_tarif_content {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart_tarif_content li{
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 2.25rem;
+    border-radius: 30px;
+    color: #263057;
+    background: #f5f5f5;
+    transition: background 0.5s;
+    margin-bottom: 5rem;
+}
+
+.cart_tarif_content li h3{
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 2.75rem;
+    margin-bottom: 0.8rem;
+}
+
+.cart_tarif_content li p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin: 1rem 0rem;
+}
+
+.more_tarif {
+    color: #000;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.line {
+    border: 1px solid rgba(38, 48, 87, 0.2);
+}
+
+.cart_tarif_content li:hover div {
+    border: 1px solid #FFDE59;
+}
+
+.cart_tarif_content li:hover a{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.4rem;
+    align-items: center;
+}
+
+.cart_tarif_content li:hover{
+    color: #fff;
+    background: #000;
+}
+
+.cart_tarif_content li:hover .more_tarif {
+    color: #FFDE59;
+    text-align: center;
+}
+
+.btn_go {
+    background: #FFDE59;
+    border: 1px solid #FFDE59;
+    box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
+    border-radius: 30px;
+    font-weight: 700;
+    padding: 0.3rem 2.8rem;
+    color: #000;
+}
+

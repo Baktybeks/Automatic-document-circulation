@@ -1,0 +1,112 @@
+.modal_tarif {
+    max-width: 62.8rem;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.block_head {
+    font-size: 2rem;
+    line-height: 3.25rem;
+    color: #263057;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner_blocks {
+    display: flex;
+    column-gap: 5rem;
+}
+
+.head1_infa1 {
+    margin-bottom: 0.5rem;
+}
+
+.head1_infa1, .head1_infa2 {
+    font-size: 1.8rem;
+    line-height: 2.75rem;
+    color: #263057;
+
+}
+
+.head1_infa2 {
+    font-size: 1.5rem;
+}
+
+.infa_conect li{
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+    color: #828282;
+    display: flex;
+    align-items: center;
+}
+
+.infa_conect li::before{
+    content: '';
+    background: url('../../../img/check-circle.png');
+    background-repeat: no-repeat;
+    padding-right: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.cash {
+    font-size: 1.8rem;
+    line-height: 3.7rem;
+    color: #263057;
+}
+
+.many {
+    font-size: 2.8rem;
+    color: #000;
+    margin-right: 1rem;
+}
+
+.block_btn{
+    margin-top: 1rem;
+}
+
+.block_btn a {
+    padding: 0.9rem 5.5rem;
+    background: #000;
+    border-radius: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.block_btn a:hover {
+    background: #FFDE59;
+    color: #000;
+}
+
+.text_infa2 {
+    max-width: 31rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #263057;
+}
+
+.spisk_bonus {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.spisk_bonus li p{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #263057;
+
+}
