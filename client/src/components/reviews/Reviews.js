@@ -25,13 +25,12 @@ function Reviews() {
                         review.map(item =>
                             <li>
                                 <div className={classes.text_reviews}>
-                                    <h2 className={classes.name_reviews}>{item.name}</h2>
-                                    <p className={classes.comment_reviews}>{item.description}</p>
+                                    <h2 className={classes.name_reviews}>Автор: "{item.name}"</h2>
+                                    <p className={classes.comment_reviews}>Отызыв: "{item.description}"</p>
                                 </div>
                             </li>
                         )
                     }
-
                 </ul>
             </div>
             <AddReview/>

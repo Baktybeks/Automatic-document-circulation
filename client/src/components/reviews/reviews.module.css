@@ -1,7 +1,10 @@
 .head_reviews {
     margin: 1rem 0;
-    color: #212529;
+    color: #ffffff;
     font-size: 2rem;
+}
+.reviews_people{
+    color: white;
 }
 
 .form {
@@ -20,7 +23,7 @@
     font-size: 1rem;
     line-height: 2rem;
     font-weight: 400;
-    color: #212529;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -50,7 +53,7 @@
 }
 
 .curs_comment li {
-    color: #212529;
+    color: #ffffff;
 }
 
 .curs_comment li:hover {
@@ -61,7 +64,7 @@
     display: block;
     margin-bottom: 1rem;
     font-size: 1rem;
-    color: #212529;
+    color: #ffffff;
 }
 
 .name_inp {
@@ -124,15 +127,16 @@
 
 .text_reviews {
     margin-left: 3rem;
+
 }
 
 .name_reviews {
     font-size: 2rem;
     font-weight: 700;
-    color: #212529;
+    color: #ffffff;
 }
 
 .curs_reviews, .comment_reviews {
     font-size: 1rem;
-    color: #212529;
+    color: #ffffff;
 }

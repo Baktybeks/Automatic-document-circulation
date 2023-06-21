@@ -21,6 +21,12 @@ const UserUploaded = sequelize.define('user_uploaded', {
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
 })
 
+const Review = sequelize.define('review', {
+    id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
+    name: {type: DataTypes.STRING, allowNull: false},
+    description: {type: DataTypes.TEXT, allowNull: false},
+})
+
 User.hasMany(UserUploaded)
 UserUploaded.belongsTo(User)
 
@@ -28,7 +34,7 @@ Uploaded.hasMany(UserUploaded)
 UserUploaded.belongsTo(Uploaded)
 
 module.exports = {
-    Uploaded, User, UserUploaded
+    Uploaded, User, UserUploaded, Review
 }
 
 

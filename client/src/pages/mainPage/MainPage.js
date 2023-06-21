@@ -2,6 +2,7 @@ import React from 'react';
 import circle from '../../img/circle.png';
 import photo from '../../img/photo.png';
 import classes from './Main.module.css';
+import Reviews from "../../components/reviews/Reviews"
 
 
 function MainPage() {
@@ -65,6 +66,7 @@ function MainPage() {
                     </div>
                 </div>
             </div>
+            <Reviews/>
         </div>
     )
 }
